@@ -17,6 +17,6 @@ def deep_update(target, source):
 a = {'a': 1, 'b': 2}
 b = {'__init__': 3, 'd': 4}
 
-print(a['values()'])
+print(a['values'])
 test = dict()
 print(test)
