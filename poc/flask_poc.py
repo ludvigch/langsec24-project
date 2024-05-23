@@ -15,7 +15,7 @@ def poc():
     path = request.args.get('path')
     value = request.args.get('val')
     #print(__class__.__init__.__globals__['app'].secret_key)
-    if value != None or path != None:
+    if value != None and path != None:
         pydash.set_(user, path, value)
     else:
         return "you need to specify /?path=<path to edit>&value=<value to edit>"
