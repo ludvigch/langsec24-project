@@ -14,8 +14,7 @@ def poc():
     user = User()
     path = request.args.get('path')
     value = request.args.get('val')
-    print(user.__class__.__init__.__globals__['app'].secret_key)
-    user.__class__.__init__.__globals__['app'].secret_key = "1337"
+    #print(__class__.__init__.__globals__['app'].secret_key)
     if value != None or path != None:
         pydash.set_(user, path, value)
     else:
