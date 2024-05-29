@@ -1,6 +1,8 @@
 
 **Instructions for pydash 5.1.2 and flask PoC**
+
 **Prerequisites:** python3.x, pip
+
 * create a python virtualenv if you don't want to taint your python installation with vulnerable packages, for example:
     1. python3 -m venv env
     2. source /env/bin/activate
