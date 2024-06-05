@@ -5,4 +5,4 @@ Prerequisites: python3.x, pip
 * install vulnerable packages in the environment
     1. pip install -r requirements.txt 
 * run the proof of concept
-    1. python3 pydash_poc.py
+    1. python3 pydash_poc_5.1.2.py
