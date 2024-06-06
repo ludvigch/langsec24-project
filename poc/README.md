@@ -23,7 +23,7 @@
     3. result will be printed in the terminal window running the flask server
 
 ## Latest pydash Poc
-
+* **Exit the previously used virtualenv**
 * **Install latest pydash release**
     1. pip install pydash
 * **Run the PoC**
