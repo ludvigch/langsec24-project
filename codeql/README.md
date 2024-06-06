@@ -12,7 +12,7 @@
     4. In the Queries section, select recursive.ql or setattr.ql and click the "Run local query" button
 
 ## Packages analysed in the project
-| Package | URL |
+| Package | URL (Accessed 27/5-2024) |
 | ------- | --- |
 | Eve | https://github.com/pyeve/eve |
 | Flask | https://github.com/pallets/flask |
@@ -24,5 +24,3 @@
 | Pyquery | https://github.com/gawel/pyquery |
 | Pyramid | https://github.com/Pylons/pyramid |
 | Toolz | https://github.com/pytoolz/toolz |
-
-**Accessed 27/5-2024**
